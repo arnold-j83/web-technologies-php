@@ -1,0 +1,396 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    /*background: url('../img/bg2.jpg') no-repeat center center fixed;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.btn.outline {
+    background: none;
+    padding: 12px 22px;
+}
+
+.btn-primary.outline {
+    background: none;
+    border: 2px solid #0099cc;
+    color: #0099cc;
+}
+
+.btn-primary.outline:hover{
+    background-color: #0099cc;
+    color: #000;
+}
+
+.btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+    background: none;
+    color: #33a6cc;
+    border-color: #33a6cc;
+
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+    border-color: #007299;
+    color: #007299;
+    box-shadow: none;
+}
+#calendar {
+    width: 80%;
+    margin: 0 auto;
+}
+input.ng-invalid {
+    border: 1px solid red;
+}
+input.ng-valid {
+    border: 1px solid green;
+}
+
+rect:hover {
+    fill: #FFA623;  /* fill with a yellow */
+}
+
+#tooltip {
+    position: absolute;
+    padding: 5px 10px;
+    background: white;
+    border-radius: 3px;
+    font-family: dosis;   /* we need to import this font*/
+    font-weight: bold;  
+    box-shadow: 5px 2px 2px;
+}
+
+.hidden{
+    display:none;
+}
+
+.title{
+    font: 25px sans-serif;
+}
+
+.axis text {
+    font: 10px sans-serif;
+}
+ 
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.img100{
+    width: 100%;
+}
+
+h1 {
+    font-family: comfortaa;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+}
+h2 {
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+}
+h3 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+}
+h4 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+}
+h5 {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+}
+
+p {
+    font-size: 1.25em;
+    line-height: 1.6;
+    color: #000;
+}
+
+li {
+    font-size: 1.25em;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+.navbar {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-radius: 0px;
+}
+.jumbotron {
+    padding: 0px;
+    margin: 0px;
+    background-color: #f1f1f1;
+    background-repeat: no-repeat;
+    display: block;
+    background-size:cover;
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin: 15px 0;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+
+}
+
+.term_details_box {
+    border: 2px solid red; 
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.img-100{
+    width: 100%
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    padding: 50px 0;
+}
+
+.collapse.in {
+   display: block;
+}
+.collapse {
+    display: none;
+}
+
+@media (min-width: 1200px) {
+    .hero1{
+        color: white;
+    }
+    .heroh1 {
+            font-size: 128px;
+            color: red;
+            text-shadow: 2px 2px 2px #000;
+            text-align: center;
+    }
+
+    .heroh2 {
+        font-size: 64px;
+        color: #fff;
+        text-shadow: 2px 2px 4px #000000;
+        text-align: center;
+    }
+
+    .hero1{
+        background: url('../img/plane1.jpg');
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size:cover;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    
+}
+ 
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .hero1{
+        color: white;
+    }
+    .heroh1 {
+            font-size: 64px;
+            color: red;
+            text-shadow: 2px 2px 2px #fff;
+            text-align: center;
+    }
+
+    .heroh2 {
+        font-size: 28px;
+        color: #fff;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    .hero1{
+        background: url('../img/plane1.jpg');
+        height: 350px;
+        background-repeat: no-repeat;
+        background-size:cover;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    
+}
+ 
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero1{
+        color: white;
+    }
+    .heroh1 {
+            font-size: 64px;
+            color: red;
+            text-shadow: 2px 2px 2px #fff;
+            text-align: center;
+    }
+
+    .heroh2 {
+        font-size: 28px;
+        color: #fff;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    .hero1{
+        background: url('../img/plane1.jpg');
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size:cover;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    
+}
+ 
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+    .hero1{
+        color: white;
+    }
+    .heroh1 {
+            font-size: 40px;
+            color: red;
+            text-shadow: 2px 2px 2px #fff;
+            text-align: center;
+    }
+
+    .heroh2 {
+        font-size: 32px;
+        color: #fff;
+        text-shadow: 2px 2px 4px #000000;
+
+    }
+
+    .hero1{
+        background: url('../img/plane1.jpg');
+        height: 250px;
+        background-repeat: no-repeat;
+        background-size:cover;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    
+}
+    /* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+    .hero1{
+        color: white;
+    }
+    .heroh1 {
+            font-size: 30px;
+            color: red;
+            text-shadow: 2px 2px 2px #fff;
+            text-align: center;
+    }
+
+    .heroh2 {
+        font-size: 24px;
+        color: #fff;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    .hero1{
+        background: url('../img/plane1.jpg');
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size:cover;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    
+}
